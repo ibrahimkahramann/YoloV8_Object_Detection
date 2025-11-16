@@ -1,0 +1,15 @@
+Bu proje, PyTorch 2.9+'ın WinError 1114 hatası nedeniyle
+
+PyTorch 2.8.0 ve Python 3.11 ile çalıştırılmıştır.
+
+PyTorch 2.8.0 (CPU-Only)
+
+torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+torchvision==0.23.0 --index-url https://download.pytorch.org/whl/cpu
+torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+
+Gerekli Diğer Kütüphaneler
+
+ultralytics
+PyQt5
+opencv-python-headless

@@ -1,0 +1,51 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Ultralytics/YOLO artifacts
+runs/
+YoloV8_Object_Detection_Runs/
+weights/
+
+# Model files and exports (large binaries)
+*.pt
+*.onnx
+*.engine
+*.tflite
+*.trt
+*.mlmodel
+*.blob
+
+# Dataset folders (optional - comment out if you want them tracked)
+train/
+valid/
+test/
+
+# RoboFlow caches/exports (optional)
+roboflow_cache/
+roboflow_export/
+
+# VS Code
+.vscode/
