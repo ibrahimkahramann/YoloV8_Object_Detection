@@ -30,18 +30,12 @@ YoloV8_Object_Detection_Runs/
 weights/
 
 # Model files and exports (large binaries)
-*.pt
 *.onnx
 *.engine
 *.tflite
 *.trt
 *.mlmodel
 *.blob
-
-# Dataset folders (optional - comment out if you want them tracked)
-train/
-valid/
-test/
 
 # RoboFlow caches/exports (optional)
 roboflow_cache/
